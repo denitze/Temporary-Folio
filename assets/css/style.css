@@ -53,13 +53,14 @@ color: #002a5a;
 }
 
 figure {
-    width:100%;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 figcaption {
-width: 86%;
 text-transform: uppercase;
 padding:1rem;
+text-align: left;
 }
 
 .hero span:first-of-type {
@@ -140,11 +141,12 @@ td {
 }
 
 .release figure  {
-    height:150px;
-    width:150px;
+    height:10rem;
+    width:10rem;
     margin-left:80%;
     padding: 10% 0;
-    margin-bottom:0;
+    /* margin-bottom:0; */
+    margin: 0 0 0 auto;
 }
 
 /* gelbe seite  */
@@ -186,49 +188,48 @@ padding-top:10rem;
     padding-bottom:15vh;
 }
 
+.images {
+    display: block;
+}
+
 .img-right {
     margin: 0 6rem 0 auto;
-    display: block;
+  
 }
 
 .img-left {
     margin: 0 auto 0 6rem;
-    display: block;
+}
+
+.portfolio-headings {
+    position: absolute;
+    letter-spacing: .5rem;
 }
 
 #rodrigo h4 {
     margin-left: 10rem;
     margin-top:0;
-    position: absolute;
     left: -6rem;
-    width: 10rem;
-    letter-spacing: .5rem;
+    
 }
 
 #kollwitz h4 {
     text-align: right;
-    position: absolute;
     right: 5rem;
     top:-9rem;
-    width: 39rem;
 }
-
 
 #victor h4 {
     margin-top:1rem;
-    position: absolute;
     left:4rem;
     top: -2rem;
-    width: 62rem;
-    letter-spacing: .5rem;
+
 }
 
 #bored h4 {
     text-align: right;
-    position: absolute;
     right: 5rem;
-    bottom:13rem;
-    width: 46rem;
+    bottom:11rem;
 }
 
 
