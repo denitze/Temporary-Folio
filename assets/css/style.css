@@ -1,6 +1,6 @@
 @font-face {
     font-family:Athene;
-    src: url(https://befonts.com/);
+    src: url(../fonts/Athene.otf);
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin:0;
+    background: #efe8d7;  
 }
 
 header {
@@ -15,14 +16,18 @@ header {
     font-weight: 300;
     z-index: 100;
 }
+
 header p {
     display:inline-block;
 }
 
 header p:first-of-type {
-    display:inline-block;
     padding-right: 80%;
-    padding-left: 4rem;
+    padding-left: 4%;
+}
+
+header p:nth-of-type(2) {
+    padding-right: 4%;
 }
 
 #sticky-header {
@@ -36,7 +41,6 @@ color: #002a5a;
 .hero {
     text-align: center;
     padding: 7% 19% 9%;
-    background: #efe8d7;  
     color: #002a5a;  
 }
 
@@ -47,7 +51,6 @@ color: #002a5a;
     font-weight: 300;
     border-bottom: 1px solid #002a5a;
 }
-
 
 figure {
     width:100%;
@@ -61,7 +64,6 @@ padding:1rem;
 
 .hero span:first-of-type {
     margin-left:-15px;
-
 }
 
 .hero span {
@@ -75,7 +77,7 @@ padding:1rem;
     color:#282b29; 
 }
 
-.release h3 {
+.smallH3-left {
     margin:0 auto;
     padding: 10rem 0 5rem 10rem;
     font-weight:300;
@@ -127,13 +129,13 @@ td {
 
 .table-center {
     font-weight: 400;
-    padding-right:20rem;
-    padding-left:2rem;
+    padding-right: 45%;
+    padding-left:4%;
     font-size: 1.3rem;
 }
 
 .table-left {
-    padding-right:2rem;
+    padding-right:4%;
     font-size: .5rem;
 }
 
@@ -141,7 +143,7 @@ td {
     height:150px;
     width:150px;
     margin-left:80%;
-    padding: 5rem 0;
+    padding: 10% 0;
     margin-bottom:0;
 }
 
@@ -151,127 +153,88 @@ td {
     color: #7d2222;
     background: #DEB873;
 }
-.portfolio{
-    height: auto;
-}
+
 .works h3 {
     margin:0 auto;
     padding: 10rem 10rem 5rem 0 ;
     font-weight:300;
     font-size: 1rem;
+    text-align: right;
 }
 
-.works div{
+.works .headings {
     text-align: right;
 }
 
 .works article {
-    margin: 3rem 65% 0 5rem ;
+    margin: 4% 65% 0 4%;
     line-height: 2rem;
-}
-
-.works p {
     letter-spacing: .3rem;
     padding-bottom: 5rem;   
-    margin-bottom:0; 
 }
 
 .portfolio {
 font-family:Athene;
-font-size: 5rem;
+font-size: 7rem;
 text-transform: uppercase;
 padding-top:10rem;
 }
 
-#rodrigo {
+.project-examples {
     position: relative;
+    margin-top:10rem;
+    padding-bottom:15vh;
 }
 
-#rodrigo img {
+.img-right {
     margin: 0 6rem 0 auto;
     display: block;
+}
 
+.img-left {
+    margin: 0 auto 0 6rem;
+    display: block;
 }
 
 #rodrigo h4 {
     margin-left: 10rem;
     margin-top:0;
     position: absolute;
-    left: 18rem;
+    left: -6rem;
     width: 10rem;
     letter-spacing: .5rem;
-}
-
-#kollwitz {
-    position: relative;
-    margin-top:10rem;
-}
-
-#kollwitz img {
-    margin: 0 auto 0 6rem;
-    display: block;
-
 }
 
 #kollwitz h4 {
     text-align: right;
     position: absolute;
     right: 5rem;
-    top:0;
-    width: 36rem;
+    top:-9rem;
+    width: 39rem;
 }
 
-#victor {
-    position: relative;
-    margin-top:10rem;
-}
-
-#victor img {
-    margin: 0 6rem 0 auto;
-    display: block;
-
-}
 
 #victor h4 {
-    margin-left: 10rem;
     margin-top:1rem;
     position: absolute;
-   left:2rem;
-    width: 47rem;
+    left:4rem;
+    top: -2rem;
+    width: 62rem;
     letter-spacing: .5rem;
-}
-
-#bored {
-    position: relative;
-    margin-top:10rem;
-    padding-bottom:20vh;
-}
-
-#bored img {
-    margin: 0 auto 0 6rem;
-    display: block;
-
 }
 
 #bored h4 {
     text-align: right;
     position: absolute;
     right: 5rem;
-    top:0;
-    width: 36rem;
+    bottom:13rem;
+    width: 46rem;
 }
 
 
 .contact {
     background: #D2D2D2;  
     color:#1d8883; 
-}
-
-.contact h3 {
-    margin:0 auto;
-    padding: 10rem 0 5rem 10rem;
-    font-weight:300;
-    font-size: 1rem;
 }
 
 .contact article {
