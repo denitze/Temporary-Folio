@@ -118,7 +118,7 @@ font-weight: 400;
 
 td {
    border-bottom: 1px solid black;
-   padding: 2rem 0; 
+   padding: 3rem 0; 
 }
 
 .table-right {
@@ -130,7 +130,7 @@ td {
 
 .table-center {
     font-weight: 400;
-    padding-right: 55%;
+    padding-right: 88%;
     padding-left:4%;
     font-size: 1.3rem;
 }
