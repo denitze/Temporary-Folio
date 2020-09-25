@@ -13,6 +13,7 @@ body {
 header {
     border-bottom: 1px solid #002a5a;
     font-weight: 300;
+    z-index: 100;
 }
 header p {
     display:inline-block;
@@ -56,6 +57,11 @@ figcaption {
 width: 86%;
 text-transform: uppercase;
 padding:1rem;
+}
+
+.hero span:first-of-type {
+    margin-left:-15px;
+
 }
 
 .hero span {
@@ -170,103 +176,130 @@ td {
     margin-bottom:0; 
 }
 
-h4 {
-    margin-top:0;
-}
-
 .portfolio {
 font-family:Athene;
-font-size: 4rem;
+font-size: 5rem;
 text-transform: uppercase;
+padding-top:10rem;
+}
+
+#rodrigo {
+    position: relative;
 }
 
 #rodrigo img {
-    margin-left:50rem;
-    display:inline-block;
-}
+    margin: 0 6rem 0 auto;
+    display: block;
 
-#rodrigo h4{
-    margin-left:45rem;
-    display:inline-block;
-}
-/* 
-#rodrigo {
-    margin-top: 10rem;
-    position:relative;
 }
 
 #rodrigo h4 {
-    position:absolute;
-    left:60rem;
-    top:0;
-    font-size: 5rem;
-    line-height: 4rem;
-}
-
-#rodrigo img {
+    margin-left: 10rem;
+    margin-top:0;
     position: absolute;
-    top: 0;
-    left: 36vw;
+    left: 18rem;
+    width: 10rem;
+    letter-spacing: .5rem;
 }
 
 #kollwitz {
-    margin-top: 10rem;
-    position:relative;
-}
-
-#kollwitz h4 {
-    position:absolute;
-    right:60rem;
-    top:0;
-    font-size: 5rem;
-    line-height: 4rem;
+    position: relative;
+    margin-top:10rem;
 }
 
 #kollwitz img {
+    margin: 0 auto 0 6rem;
+    display: block;
+
+}
+
+#kollwitz h4 {
+    text-align: right;
     position: absolute;
-    top: 55vh;
-    left: 3vw;
+    right: 5rem;
+    top:0;
+    width: 36rem;
 }
 
 #victor {
-    margin-top: 10rem;
-    position:relative;
-}
-
-#victor h4 {
-    position:absolute;
-    right:100rem;
-    top:0;
-    font-size: 5rem;
-    line-height: 4rem;
+    position: relative;
+    margin-top:10rem;
 }
 
 #victor img {
+    margin: 0 6rem 0 auto;
+    display: block;
+
+}
+
+#victor h4 {
+    margin-left: 10rem;
+    margin-top:1rem;
     position: absolute;
-    top: 125vh;
-    left: 36vw;
+   left:2rem;
+    width: 47rem;
+    letter-spacing: .5rem;
 }
 
 #bored {
-    margin-top: 10rem;
-    position:relative;
-}
-
-#bored h4 {
-    position:absolute;
-    right:60rem;
-    top:0;
-    font-size: 5rem;
-    line-height: 4rem;
+    position: relative;
+    margin-top:10rem;
+    padding-bottom:20vh;
 }
 
 #bored img {
+    margin: 0 auto 0 6rem;
+    display: block;
+
+}
+
+#bored h4 {
+    text-align: right;
     position: absolute;
-    top: 200vh;
-    left: 3vw;
-} */
+    right: 5rem;
+    top:0;
+    width: 36rem;
+}
 
 
+.contact {
+    background: #D2D2D2;  
+    color:#1d8883; 
+}
 
-/* 
-Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
+.contact h3 {
+    margin:0 auto;
+    padding: 10rem 0 5rem 10rem;
+    font-weight:300;
+    font-size: 1rem;
+}
+
+.contact article {
+    line-height: 2rem;
+    margin:3rem 39%;
+    font-size: 1rem;
+    letter-spacing: .3rem;
+    padding-bottom: 5rem;   
+}
+
+.contact ul {
+    list-style: none;
+    text-align: right;
+    margin-bottom:0;
+    padding-bottom:3rem;
+    padding-right:5rem;
+}
+
+.contact li {
+    line-height: 2rem;
+}
+
+a:hover {
+    border-bottom: 1px solid #1d8883;
+}
+
+a {
+    padding-bottom:2px;
+    text-decoration: none;
+    color:#1d8883;
+}
